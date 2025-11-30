@@ -1,0 +1,70 @@
+.block {
+    display: block;
+    background-color: aqua;  
+    padding: 10px;
+    margin: 10px;
+
+}
+.block1 {
+    display: inline;
+    background-color: rgb(98, 210, 109);
+    padding: 10px;
+    margin: 10px;
+
+}
+.block2 {
+    display: flex;
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;   
+}
+.flex {
+    display: flex;
+    gap: 10px;
+    margin: 10px; 
+    flex-flow: column wrap;
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: center;
+}
+.container {
+    display: flex;
+    margin: 20px;
+}   
+.item {
+    flex: 20 50 30px;
+}
+.cont {
+    display: flex;
+    background-color: peru;
+}
+.elem1 {
+    flex: 0 0 50%;
+}
+.elem2 {
+    flex: 1;
+}
+.elem3 {
+    flex: 0 0 100px;
+}
+.menu {
+    color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a:hover {
+    color: #eae0e0;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.card {
+    flex: 20 30 50px;
+}
