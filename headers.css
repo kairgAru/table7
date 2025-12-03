@@ -1,0 +1,145 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+header {
+    background-color: white;
+    margin-bottom: 35px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #00000014;
+    border-radius: 10px;
+
+
+}
+.headerblack {
+    background-color: #111928;
+    margin-bottom: 22px;
+    padding: 25px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #eef0;
+
+}
+.leftside {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.rightside {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+img {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #000000;
+
+
+}
+.navblack {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.navblack a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.nav a.active {
+    color: #5C53E9;
+
+}
+.btn {
+    display: flex;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    border: none;
+    align-items: center;
+
+}
+.btnblack {
+    background-color: #000000;
+    color: #FFFFFF;
+    
+}
+.btnblu {
+    background-color: #5C53E9;
+    color: #FFFFFF;
+    
+}
+.btn img {
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 7px;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #DFDFDF;
+    padding: 12px;
+    border-radius: 10px;
+    
+    
+}
+.search-box2 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #D6D8DE;
+    padding: 12px;
+    border-radius: 10px;
+    
+    
+    
+}
+.search-box input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    width: 352px;
+    
+}
+.search-box2 input {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    background-color: #111928;
+    width: 500px;
+       
+}
